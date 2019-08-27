@@ -1,0 +1,240 @@
+#main {
+    width: 40%;
+    height: 70%;
+    background-color: darkgoldenrod;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+}
+
+#display {
+    width: 96%;
+    margin: 2%;
+    height: 20%;
+    background-color: lightgrey;
+}
+
+#user-input {
+    width: 96%;
+    height: 72%;
+    margin: 2%;
+    background-color: cyan;
+}
+
+#user-input01 {
+
+    position: relative;
+    top: 10%;
+    left: 5%;
+    width: 90%;
+    height: 80%;
+    background-color:#5f736c;
+    
+}
+.rows{
+    margin: 1%;
+    position: relative;
+    top: 2%;
+    width: 98%;
+    height: 23%;
+    background-color: blueviolet
+}
+.rows:nth-of-type(even){
+    background-color: grey !important;
+}
+.cols1{
+    float: left;
+    position: relative;
+    width: 23%;
+    margin-left: 5px;
+    top: 10%;
+    left: 1%;
+    height: 80%;
+    background-color: red;
+}
+.cols1:nth-of-type(even){
+    background-color:rebeccapurple !important;
+}
+
+.cols2 {
+    float: left;
+    position: relative;
+    width: 23%;
+    height: 80%;
+    margin-left: 5px;
+    background-color: black;
+    position: relative;
+    top: 10%;
+    left: 1%;
+}
+
+.cols2:nth-child(even){
+    background-color: brown;
+}
+
+.cols3 {
+    float: left;
+    position: relative;
+    width: 23%;
+    height: 80%;
+    margin-left: 5px;
+    background-color:crimson;
+    position: relative;
+    top: 10%;
+    left: 1%;
+}
+
+
+.cols3:nth-child(even) {
+    background-color: pink;
+}
+
+.cols4 {
+    float: left;
+    position: relative;
+    width: 23%;
+    height: 80%;
+    margin-left: 5px;
+    background-color:cornsilk;
+    position: relative;
+    top: 10%;
+    left: 1%;
+}
+
+.cols4:nth-child(even){
+    background-color:orange;
+}
+
+#number1 {
+    height: 56px;
+    width: 100%;
+}
+#number2{
+    height: 56px;
+    width: 100%;
+}
+
+#number3{
+    height: 56px;
+    width: 100%;
+}
+#number4{
+    height: 56px;
+    width: 100%;
+}
+
+#number5{
+    height: 56px;
+    width: 100%;
+}
+#number6{
+    height: 56px;
+    width: 100%;
+}
+#number7{
+    height: 56px;
+    width: 100%;
+}
+
+#number8{
+    height: 56px;
+    width: 100%;
+}
+#number9{
+    height: 56px;
+    width: 100%;
+}
+
+#number0{
+    height: 56px;
+    width: 100%;
+}
+#multiply{
+    height: 56px;
+    width: 100%;
+}
+
+#addition{
+    height: 56px;
+    width: 100%;
+}
+
+#equalto{
+    height: 56px;
+    width: 100%;
+}
+#subtraction{
+    height: 56px;
+    width: 100%;
+}
+#division{
+    height: 56px;
+    width: 100%;
+}
+#clear{
+    height: 56px;
+    width: 100%;
+}
+
+#myCal {
+    height: 50px;
+    width: 48%;
+    font-size: 35px;
+    background-color: brown;
+    background-image: linear-gradient(to right,red, yellow,green);
+    color: #fff;
+}
+
+#luck {
+    height: 50px;
+    width: 48%;
+    background-color: cadetblue;
+    font-size: 35px;
+    background-image: radial-gradient(red, yellow, green);
+    color: #fff;
+}
+
+#luck-main {
+    width: 40%;
+    height: 70%;
+    background-color: darkgoldenrod;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    display: none;
+
+}
+#luck-main input {
+    width: 99%;
+    height: 50px;
+    font-size: 34px;
+    background-color: antiquewhite;
+    
+}
+#name {
+    position: relative;
+    top: -16px;
+}
+#dob{
+    position: relative;
+    top: -17px;
+}
+
+#result-luck {
+    position: relative;
+    left: 0%;
+}
+
+ #display-luck {
+    width: 96%;
+    margin: 2%;
+    height: 30%;
+    background-color: lightgrey;
+} 
+#resultlc {
+    width: 197px;
+    height: 54px;
+    position: relative;
+    left: 179px;
+    top: 10;
+}

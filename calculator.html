@@ -1,0 +1,99 @@
+<html>
+    <head>
+   <script src="calculator.js"></script>
+   <link rel="stylesheet" href="calculator.css">
+    </head>
+    
+	
+    <body>
+        <button id="myCal" onclick="changePage('calculator')">Calculator</button>
+        <button id="luck" onclick="changePage('luck')">YourLuck</button>
+        <div id="main">
+            <div id="display">
+                <input type="text" id="result" style="height: 100%; width: 100%; font-size: 30px;">
+            </div>
+            <div id="user-input">
+                    <div id = "user-input01">
+                        <div class="rows" id="row1">
+                                <div class="cols1">
+                           <button  id="number1" value="1" onclick="dis('1')"\>1</button>
+                                    </div>
+                                    <div class="cols1">
+                           <button id="number2" value="2" onclick="dis('2')"\>2</button>
+                                        </div>
+                                        <div class="cols1">
+                           <button id="number3" value="3" onclick="dis('3')"\ >3</button>
+                                            </div>
+                                            <div class="cols1">
+                           <button id="clear" value="ac" onclick="dis('clear')"\>AC</button>
+                                                </div>
+                        </div>
+                        <div class="rows" id="row2">
+                                <div class="cols2" >
+                           <button id="number4" value="4" onclick="dis('4')"\>4</button>
+                                    </div>
+                                    <div class="cols2">
+                           <button id="number5" value="5" onclick="dis('5')"\>5</button>
+                                        </div>
+                                        <div class="cols2" >
+                           <button id="number6" value="6" onclick="dis('6')"\>6</button>
+                                            </div>
+                                            <div class="cols2" >
+                           <button id="division" value="/" onclick="dis('/')"\>/</button>
+                                    </div>
+                        </div>
+                        <div class="rows" id="row3">
+                                <div class="cols3">
+                           <button id="number7" value="7" onclick="dis('7')"\>7</button>
+                                    </div>
+                                    <div class="cols3">
+                           <button id="number8" value="8" onclick="dis('8')"\>8</button>
+                                        </div>
+                                        <div class="cols3">
+                           <button id="number9" value="9" onclick="dis('9')"\>9</button>
+                                            </div>
+                                            <div class="cols3">
+                           <button id="subtraction" value="%" onclick="dis('-')"\ >-</button>
+                                                </div>
+                        </div>
+                        <div class="rows" id="row4">
+                                <div class="cols4">
+                           <button id="multiply" value="*" onclick="dis('*')"\>*</button>
+                                    </div>
+                                    <div class="cols4">
+                                            <button id="number0" value="0" onclick="dis('0')"\ >0</button>
+                                        </div>
+                                        <div class="cols4">
+                           <button id="addition" value="+" onclick="dis('+')"\>+</button>
+                                            </div>
+                                            <div class="cols4">
+                           <button id="equalto"  value="=" onclick="solve()">=</button>
+                                                </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+        <div id = "luck-main">
+                <div id="display-luck">
+                        <textarea  rows="5" id="result-luck" readonly style="height: 100%; width: 100%; font-size: 30px;">
+                    </textarea>
+                        </div>
+                    <div class="rows">
+                            <h1>Enter your Name</h1>
+                            <input id="name"  type="text"><br>
+                    </div>
+                    <div class="rows">
+                            <h1>Enter your DOB</h1>
+                            <input id="dob" type="date" title="DOB" required>
+                    </div>
+                    <div id="rows">
+                            <button id="resultlc" onclick="luckFunc()">Check Your Luck</button>
+                    </div>
+
+        </div>
+
+
+
+    </body>
+</html>
